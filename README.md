@@ -1,7 +1,7 @@
 # 更适合中国宝宝体质的本地化模板
 **适配windows版ollama的本地api，并增加`.bat`模板**
 
-`.bat`默认已存在anaconda环境，并且配好依赖。
+`.bat`默认已存在anaconda环境，并且配好依赖。python版本建议`3.10`以上，我的环境是`3.10`。
 
 # Ollama-MMLU-Pro
 
