@@ -21,7 +21,7 @@ import atexit
 import signal
 
 parser = argparse.ArgumentParser(
-	prog="python3 run_openai.py",
+	prog="python3 run_ollama.py",
 	description="Run MMLU Pro Benchmark for  a local LLM  via  OpenAI Compatible API.",
 	epilog="Specify  options above  to override  one or more settings from config.",
 )
