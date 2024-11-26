@@ -1,6 +1,8 @@
 # 更适合中国宝宝体质的本地化模板
 **适配windows版ollama的本地api，并增加`.bat`模板**
 
+`.bat`默认已存在anaconda环境，并且配好依赖。
+
 # Ollama-MMLU-Pro
 
 This is a modified version of run_gpt4o.py from [TIGER-AI-Lab/MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro), and it lets you run [MMLU-Pro](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro) benchmark via the OpenAI Chat Completion API. It's tested on Ollama and Llama.cpp, but it should also work with LMStudio, Koboldcpp, Oobabooga with openai extension, etc.
