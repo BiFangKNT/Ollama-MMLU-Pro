@@ -1,11 +1,19 @@
 # 更适合中国宝宝体质的本地化模板
-**适配windows版ollama的本地api，并增加`.bat`模板**
+**适配windows版ollama的本地api，并增加`run_models.bat`模板**
 
-`.bat`默认已存在anaconda环境，并且配好依赖。python版本建议`3.10`以上，我的环境是`3.10`。
+## 开始之前
+
+> 建议使用`anaconda`虚拟环境。进入`anaconda`环境后，cd进项目目录，运行`pip install -r requirements.txt`命令安装环境依赖。
+
+`.bat`模板默认已存在anaconda环境，并且配好依赖。python版本建议`3.10`以上，我的环境是`3.10`。`.bat`模板默认使用`anaconda`的默认环境`base`，如果你打算使用别的环境，自行更改模板中的命令：
+```
+:: 激活conda环境
+call conda activate base
+```
 
 # Ollama-MMLU-Pro
 
-This is a modified version of run_gpt4o.py from [TIGER-AI-Lab/MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro), and it lets you run [MMLU-Pro](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro) benchmark via the OpenAI Chat Completion API. It's tested on Ollama and Llama.cpp, but it should also work with LMStudio, Koboldcpp, Oobabooga with openai extension, etc.
+This is a modified version of run_gpt4o.py from [TIGER-AI-Lab/MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro), and it lets you run [MMLU-Pro](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro) benchmark via the OpenAI Chat Completion API. It's tested on Ollama 和 Llama.cpp, but it should also work with LMStudio, Koboldcpp, Oobabooga with openai extension, etc.
 
 <a href="https://colab.research.google.com/github/chigkim/Ollama-MMLU-Pro/blob/main/Ollama_MMLU_Pro.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
